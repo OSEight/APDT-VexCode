@@ -126,13 +126,32 @@ void error(){
   main();
 }
 int main() {
+  int foreverTrue = 1;
   Brain.Screen.print("BAP Console | DEVICE IDLE");
   std::printf("Brendon's All-Purpose Console\n ");
   std::printf("Events:\n");
-  while(1 == 1){
+  while(foreverTrue == 1){
     if(Brain.buttonLeft.pressed == true){
       std::printf("brain.burronleft.press\n");
       DirectionTest();
+    }
+    if(Controller.ButtonLUp.pressing == True){
+      std::printf("Controller.Insider.Disabled")
+    }
+    if(Controller.ButtonRUp.pressing == True){
+      std::printf("Controller.Insider.Disabled")
+    }
+    if(Controller.ButtonL3.pressing == True){
+      std::printf("Controller.Insider.Disabled")
+    }
+    if(Controller.ButtonL3.pressing == True){
+      std::printf("Controller.Insider.Disabled")
+    }
+    if(Controller.ButtonL3.pressing == True){
+      std::printf("Controller.Insider.Disabled")
+    }
+    if(Controller.ButtonR3.pressing == True){
+      std::printf("Controller.Insider.Disabled")
     }
   }
 }
